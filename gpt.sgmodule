@@ -1,5 +1,5 @@
 #!name=ChatGPT检测
-#auther: deezertidal
+#!author=deezertidal
 #!desc=ChatGPT检测
 [Panel]
 ChatGPT检测 = script-name=ChatGPT检测

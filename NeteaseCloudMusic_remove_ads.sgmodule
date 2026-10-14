@@ -1,5 +1,5 @@
 #!name=网易云音乐去广告
-#auther: RuCu6, Keywos
+#!author=RuCu6, Keywos
 #!desc=过滤网易云音乐广告，并允许自定义界面。
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/NeteaseCloudMusic.png
 #!openUrl=https://apps.apple.com/app/id590338362
