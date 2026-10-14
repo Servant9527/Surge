@@ -1,5 +1,5 @@
 #!name=IP信息
-#auther: deezertidal
+#!author=deezertidal
 #!desc=IP信息面板
 [Panel]
 IP信息=script-name=IP信息
