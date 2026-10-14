@@ -1,6 +1,5 @@
 #!name=ChatGPT检测
 #!desc=ChatGPT检测
-#!homepage=https://yfamilys.com
 [Panel]
 ChatGPT检测 = script-name=ChatGPT检测
 [Script]
