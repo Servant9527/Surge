@@ -1,4 +1,5 @@
 #!name=网络接口信息
+#auther: xream
 #!desc=查询网络接口的网速和流量 https://t.me/zhetengsha
 #!author=@xream https://t.me/zhetengsha
 #!arguments=STYLE:compact,UPDATE-INTERVAL:1,ICON:wifi.router,ICON-COLOR:#6699FF
