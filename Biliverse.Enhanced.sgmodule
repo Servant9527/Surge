@@ -1,10 +1,10 @@
-#!name=42、Biliverse增强
+#!name=45、Biliverse增强
 #!desc = 哔哩哔哩：增强模式\n中国站功能增强及UI自定义
 #!openUrl = http://boxjs.com/#/app/Biliverse.Enhanced
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://biliverse.github.io/guide/enhanced
 #!icon = https://github.com/Biliverse/Enhanced/raw/main/src/assets/icon_rounded.png
-#!category=功能解锁
+#!category=功能增强
 #!date = 2026-10-17 07:17:29
 #!version = 0.6.2
 #!arguments = Home.Switch:true,Home.Tab:"2036,2037,780,545,151",Home.Tab_default:"2037",Home.Top_left:"mine",Home.Top:"messages",Home.Top_more:"categories,search",Bottom:"home,dynamic,ogv,mall,mine",Region.Switch:true,Mine.Switch:true,Mine.iPad.Switch:true,Storage:"PersistentStore",LogLevel:"WARN"

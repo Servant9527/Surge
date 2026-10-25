@@ -1,7 +1,7 @@
-#!name=67、脚本转换
+#!name=63、脚本转换
 #!author=小白脸, xream, keywos, ckyb
 #!desc=https://script.hub
-#!category=工具
+#!category=功能增强
 #!arguments=Notify:开启通知
 #!arguments-desc=Notify:\nScriptHub通知设置, 可选 开启通知, 关闭通知, 跟随链接
 
