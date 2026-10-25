@@ -4,7 +4,7 @@
 #!openUrl = http://boxjs.com/#/app/iRingo.Maps
 #!homepage = https://NSRingo.github.io/guide/GeoServices/maps
 #!icon = https://developer.apple.com/assets/elements/icons/maps/maps-128x128.png
-#!category =  iRingo
+#!category=功能解锁
 #!date = 2026-04-04 20:55:24
 #!version = 4.6.1
 #!arguments = GeoManifest.Dynamic.Config.CountryCode:"US",UrlInfoSet.Dispatcher:"AutoNavi",UrlInfoSet.Directions:"AutoNavi",UrlInfoSet.RAP:"Apple",UrlInfoSet.LocationShift:"AUTO",TileSet.Earth:"AUTO",TileSet.Roads:"AUTO",TileSet.Satellite:"AUTO",Storage:"Argument",LogLevel:"WARN"

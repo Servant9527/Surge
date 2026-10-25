@@ -2,7 +2,7 @@
 #!author=可莉🅥, VirgilClyne
 #!desc=此插件是所有去广告插件的依赖，拦截常见的HTTPDNS服务，以确保这些请求都能够在Loon的DNS框架下工作。
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/HTTPDNS.png
-#!category=去广告, 依赖
+#!category=去广告
 #!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
 #!date=2026-10-02 13:57:49

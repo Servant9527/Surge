@@ -3,7 +3,7 @@
 #!desc=http://boxjs.com
 #!homepage=https://docs.boxjs.app/
 #!icon=https://raw.githubusercontent.com/chavyleung/scripts/master/box/icons/BoxJs.png
-#!category=BoxJs
+#!category=工具
 
 [General]
 force-http-engine-hosts = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net
