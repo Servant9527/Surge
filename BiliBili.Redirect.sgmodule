@@ -1,10 +1,10 @@
-#!name=03、哔哩哔哩链接跳转
+#!name=哔哩哔哩链接跳转
 #!desc = 哔哩哔哩：重定向\n中国站CDN自定义
 #!openUrl = http://boxjs.com/#/app/BiliBili.Redirect
 #!author = VirgilClyne[https://github.com/VirgilClyne]
 #!homepage = https://biliverse.github.io/guide/redirect
 #!icon = https://github.com/Biliverse/Redirect/raw/main/src/assets/icon_rounded.png
-#!category=核心功能
+#!category=功能解锁
 #!date = 2026-10-16 06:17:59
 #!version = 0.2.25
 #!arguments = Host.OverseaVideo:"upos-sz-mirrorali.bilivideo.com",Host.BStar:"upos-sz-mirrorali.bilivideo.com",Host.PCDN:"upos-sz-mirrorali.bilivideo.com",Host.MCDN:"proxy-tf-all-ws.bilivideo.com",Storage:"Argument",LogLevel:"WARN"

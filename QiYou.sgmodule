@@ -1,7 +1,7 @@
-#!name=56、汽油价格
+#!name=汽油价格
 #!author=cc63
 #!desc=展示当地汽油价格
-#!category=功能增强
+#!category=面板
 #!arguments=省份拼音:shandong
 #!arguments-desc=🔔提示：山西省填写shanxi，陕西省填写shanxi-3
 
