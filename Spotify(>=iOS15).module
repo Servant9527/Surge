@@ -1,10 +1,7 @@
 #!name=Spotify会员解锁(>=iOS15)
 #!category=功能解锁
 #!author=app2smile
-
-#!desc=部分解锁premium,建议重新登录,音质不能设置为超高
-
-# 1. 搜索界面 歌单/歌曲可以随意切换完全播放  2. 音乐库已点赞歌曲随意切换完全播放
+#!desc=2025.06.27 部分解锁premium,音质不能设置为超高(建议登录后再打开脚本,重启app等待脚本生效)
 
 [Header Rewrite]
 http-request ^https:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ header-del if-none-match
