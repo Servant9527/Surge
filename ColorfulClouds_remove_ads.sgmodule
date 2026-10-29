@@ -1,7 +1,7 @@
 #!name=彩云天气去广告
 #!author=RuCu6
 #!desc=移除首页推广、弹窗、悬浮窗、底栏天气助手和工具箱入口，移除我的页面广告横幅。
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/ColorfulClouds.png
+#!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/ColorfulClouds.png
 #!openUrl=https://apps.apple.com/app/id847764912
 #!category=去广告
 #!homepage=https://hub.kelee.one
