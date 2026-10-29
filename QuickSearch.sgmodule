@@ -1,7 +1,7 @@
 #!name=快捷搜索
 #!desc=为Safari提供快速切换搜索引擎的能力，在插件列表中点击此插件上的链接查看使用方法。
 #!author=可莉🅥
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Safari.png
+#!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/Safari.png
 #!openUrl=https://github.com/luestr/ProxyResource/blob/main/Resource/Markdown/QuickSearch/README.md
 #!category=功能解锁
 #!homepage=https://hub.kelee.one

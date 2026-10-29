@@ -7,4 +7,4 @@
 timecard = script-name=timecard,update-interval=3600
 
 [Script]
-timecard = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/smartmimi/conf/master/surge/timecard.js
+timecard = type=generic,timeout=10,script-path=https://cdn.jsdelivr.net/gh/smartmimi/conf@master/surge/timecard.js

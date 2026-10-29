@@ -1,7 +1,7 @@
 #!name=WARP节点查询
 #!author=VirgilClyne, I-am-R-E
 #!desc=显示WARP节点的详细信息，请在所有节点页面选择一个节点长按，出现菜单后进行测试。
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/1.1.1.1.png
+#!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/1.1.1.1.png
 #!openUrl=https://itunes.apple.com/app/id1423538627
 #!category=工具
 #!loon_version=3.5.1(998)
@@ -9,7 +9,7 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-WARP · INFO = type=generic, script-path=https://raw.githubusercontent.com/VirgilClyne/Cloudflare/main/js/1.1.1.1.panel.js, timeout=10
+WARP · INFO = type=generic, script-path=https://cdn.jsdelivr.net/gh/VirgilClyne/Cloudflare@main/js/1.1.1.1.panel.js, timeout=10
 
 [MITM]
 hostname = %APPEND% api.cloudflareclient.com, zero-trust-client.cloudflareclient.com

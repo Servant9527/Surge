@@ -9,4 +9,4 @@
 QiYou = script-name=QiYou,update-interval=43200
 
 [Script]
-QiYou = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/cc63/Surge/main/Module/Panel/QiYou/Moore/YJ.js,argument={{{省份拼音}}}
+QiYou = type=generic,timeout=5,script-path=https://cdn.jsdelivr.net/gh/cc63/Surge@main/Module/Panel/QiYou/Moore/YJ.js,argument={{{省份拼音}}}
