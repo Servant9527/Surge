@@ -5,4 +5,4 @@
 [Panel]
 ChatGPT检测 = script-name=ChatGPT检测
 [Script]
-ChatGPT检测 = type=generic,script-path=https://raw.githubusercontent.com/deezertidal/Surge_Module/master/files/gpt.js,argument=icon=ellipses.bubble.fill&icon-color=#008000
+ChatGPT检测 = type=generic,script-path=https://cdn.jsdelivr.net/gh/deezertidal/Surge_Module@master/files/gpt.js,argument=icon=ellipses.bubble.fill&icon-color=#008000
