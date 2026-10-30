@@ -43,8 +43,10 @@ function render(data) {
         continue;
       }
       // 名称固定8字符+冒号
+      const total = (m.rx_gb + m.tx_gb).toFixed(1);
       let line = flagFor(m.name) + " " + padRight(m.name + ":", 9);
       // 下行/上行固定宽度，右对齐数字
+      line += padLeft(total + "G", 8);
       line += "↓" + padLeft(m.rx_gb + "G", 7);
       line += " ↑" + padLeft(m.tx_gb + "G", 7);
       // GCP特殊显示：配额+警告放右边
