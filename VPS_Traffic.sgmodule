@@ -1,12 +1,10 @@
 #!name=VPS流量监控
-#!desc=显示19台VPS本月上下行流量, 数据每5分钟更新
+#!desc=显示19台VPS本月上下行流量, 数据每5分钟更新, SJC主/CN01备
 #!category=面板
 #!author=Muse
-#!arguments=show_rx:1,show_tx:1
-#!arguments-desc=show_rx:\n显示下载流量\n1 显示, 0 隐藏\n\nshow_tx:\n显示上传流量\n1 显示, 0 隐藏
 
 [Script]
-VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@main/vps-traffic.js, argument="show_rx={{{show_rx}}}&show_tx={{{show_tx}}}"
+VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@main/vps-traffic.js
 
 [Panel]
 VPS流量监控 = script-name=VPS流量监控, update-interval=300
