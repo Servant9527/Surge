@@ -23,6 +23,14 @@ function fetchUrl(url, cb) {
   });
 }
 
+const FLAGS = {
+  "RN-SJC": "🇺🇸", "RN-LA": "🇺🇸", "GCP-OR": "🇺🇸",
+};
+function flagFor(name) {
+  if (name.startsWith("CN")) return "🇨🇳";
+  return FLAGS[name] || "";
+}
+
 function render(data) {
   try {
     const j = JSON.parse(data);
@@ -31,11 +39,11 @@ function render(data) {
     lines.push("");
     for (const m of j.machines) {
       if (m.status !== "ok") {
-        lines.push(padRight(m.name + ":", 9) + "离线");
+        lines.push(flagFor(m.name) + " " + padRight(m.name + ":", 9) + "离线");
         continue;
       }
       // 名称固定8字符+冒号
-      let line = padRight(m.name + ":", 9);
+      let line = flagFor(m.name) + " " + padRight(m.name + ":", 9);
       // 下行/上行固定宽度，右对齐数字
       line += "↓" + padLeft(m.rx_gb + "G", 7);
       line += " ↑" + padLeft(m.tx_gb + "G", 7);
