@@ -4,7 +4,7 @@ description: "通过 SSH 获取多台服务器状态+流量，支持所有 Widge
 env_schema:
   hosts:
     name: 主机列表
-    description: "格式: 名称:IP,名称:IP (如 RN-SJC:23.94.70.211,CN01:39.98.71.108)"
+    description: "格式: 名称:IP,名称:IP"
     default_value: ""
   port:
     name: 端口
@@ -14,7 +14,7 @@ env_schema:
     name: 用户名
     description: SSH 登录用户名
     default_value: "root"
-password: <redacted>
+  password:
     name: 密码
     description: "SSH 密码（与私钥二选一）"
     default_value: ""
