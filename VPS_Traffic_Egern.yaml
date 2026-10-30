@@ -1,0 +1,11 @@
+name: "VPS流量监控"
+description: "显示19台VPS本月上下行流量，数据每2分钟更新，SJC主/CN01备"
+
+scriptings:
+- generic:
+    name: VPS流量监控
+    script_url: https://cdn.jsdelivr.net/gh/Servant9527/Surge@c5b96a432ba1ddd21f350821c885ad3a6b06a8c/vps-traffic-egern.js
+
+widgets:
+- name: VPS流量监控
+  script_name: VPS流量监控
