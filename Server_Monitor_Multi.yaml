@@ -1,5 +1,5 @@
 name: "服务器监控(多台)"
-description: "通过 SSH 获取多台服务器状态，支持所有 Widget 尺寸"
+description: "通过 SSH 获取多台服务器状态+流量，支持所有 Widget 尺寸"
 
 env_schema:
   hosts:
@@ -26,7 +26,7 @@ password: <redacted>
 scriptings:
 - generic:
     name: 服务器监控(多台)
-    script_url: https://cdn.jsdelivr.net/gh/Servant9527/Surge@611f70580f442aaec8d9a50994d9709be1085ee3/server-monitor-multi.js
+    script_url: https://cdn.jsdelivr.net/gh/Servant9527/Surge@cda258f10ea414676015426bffb6e05b0359e588/server-monitor-multi.js
 
 widgets:
 - name: 服务器监控(多台)
