@@ -4,7 +4,7 @@
 #!author=Muse
 
 [Script]
-VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@main/vps-traffic.js
+VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@c5b96a432ba1ddd21f350821c885ad3a6b06a8c/vps-traffic.js
 
 [Panel]
 VPS流量监控 = script-name=VPS流量监控, update-interval=300
