@@ -41,7 +41,7 @@ function render(data) {
       line += " ↑" + padLeft(m.tx_gb + "G", 7);
       // GCP特殊显示：配额+警告放右边
       if (m.name === "GCP-OR") {
-        line += " (200G " + (m.tx_gb >= 150 ? "⚠️" : "✓") + ")";
+        line += " (200G " + (m.tx_gb >= 180 ? "⚠️" : "✓") + ")";
       }
       lines.push(line);
     }
