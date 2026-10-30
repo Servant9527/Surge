@@ -1,7 +1,10 @@
 #!name=VPS流量监控
-#!desc=显示21台VPS本月上下行流量, 数据每10分钟更新
+#!desc=显示19台VPS本月上下行流量, 数据每10分钟更新
 #!category=面板
 #!author=Muse
 
-[VPS流量监控]
-VPS流量监控 = type=generic, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@main/vps-traffic.js, script-update-interval=600, argument=
+[Script]
+VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@main/vps-traffic.js
+
+[Panel]
+VPS流量监控 = script-name=VPS流量监控, update-interval=600
