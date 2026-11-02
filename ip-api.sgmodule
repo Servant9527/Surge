@@ -1,0 +1,7 @@
+#!name=IP信息
+#!category=面板
+#!desc=IP信息面板
+[Panel]
+IP信息=script-name=IP信息
+[Script]
+IP信息=type=generic,script-path=https://raw.githubusercontent.com/Servant9527/Surge/main/JS%20folder/ip-api.js,argument=icon=mappin.and.ellipse&color=#f50505
