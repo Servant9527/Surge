@@ -1,6 +1,5 @@
 #!name=哔哩哔哩链接跳转
 #!desc = 哔哩哔哩：重定向\n中国站CDN自定义
-#!homepage = https://biliverse.github.io/guide/redirect
 #!icon = https://cdn.jsdelivr.net/gh/Biliverse/Redirect@main/src/assets/icon_rounded.png
 #!category=功能解锁
 #!date = 2026-10-16 06:17:59
