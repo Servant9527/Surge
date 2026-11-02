@@ -2,7 +2,6 @@
 #!desc=移除开屏广告、弹窗、信息流推广、职位页面推广和各类横幅推广。
 #!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/51Job.png
 #!category=去广告
-#!loon_version=3.5.1(998)
 #!date=2026-10-02 13:57:49
 
 [Body Rewrite]
