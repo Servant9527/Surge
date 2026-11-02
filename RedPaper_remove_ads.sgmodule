@@ -2,7 +2,6 @@
 #!desc=过滤信息流推广，移除图片及视频水印，如有异常，请先清除缓存再尝试。
 #!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/RedPaper.png
 #!category=去广告
-#!loon_version=3.5.1(998)
 #!date=2026-10-02 13:57:49
 
 [Rule]

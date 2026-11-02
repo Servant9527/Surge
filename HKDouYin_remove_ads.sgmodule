@@ -2,7 +2,6 @@
 #!desc=精简左右侧边栏、移除底栏切换，其余内容后续再完善。
 #!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/TikTok.png
 #!category=去广告
-#!loon_version=3.5.1(998)
 #!date=2026-10-02 13:57:49
 
 [Rule]

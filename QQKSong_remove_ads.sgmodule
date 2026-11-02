@@ -2,7 +2,6 @@
 #!desc=移除开屏广告、歌房页面弹窗广告、消息页广告和我的页面广告。
 #!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/QQKSong.png
 #!category=去广告
-#!loon_version=3.5.1(998)
 #!date=2026-10-02 13:57:49
 
 [Rule]

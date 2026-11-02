@@ -2,7 +2,6 @@
 #!desc=移除开屏广告、焦点图广告、瀑布流广告、搜索页面广告、移除青少年弹窗，精简底栏和我的页面。
 #!icon=https://cdn.jsdelivr.net/gh/luestr/IconResource@main/App_icon/120px/iQiYi_Video.png
 #!category=去广告
-#!loon_version=3.5.1(998)
 #!date=2026-10-02 13:57:49
 
 [Rule]
