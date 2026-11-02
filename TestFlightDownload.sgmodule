@@ -1,1 +1,11 @@
-IyFuYW1lPVRlc3RGbGlnaHQgRG93bmxvYWQKIyFkZXNjPVRlc3RGbGlnaHQgcmVnaW9uIGZpeAoKW1J1bGVdCkRPTUFJTi1TVUZGSVgsdGVzdGZsaWdodC5hcHBsZS5jb20sRElSRUNUCkRPTUFJTi1TVUZGSVgsaXR1bmVzLmFwcGxlLmNvbSxESVJFQ1QKRE9NQUlOLVNVRkZJWCxhcHBzLmFwcGxlLmNvbSxESVJFQ1QKRE9NQUlOLVNVRkZJWCxhcHBzdG9yZS5hcHBsZS5jb20sRElSRUNUCg==
+#!name=TestFlight区域限制解除
+#!desc=该模块适用于更新TestFlight App时, 提示"APP不可用"问题.
+
+[General]
+skip-proxy = %APPEND% iosapps.itunes.apple.com
+
+[Script]
+TF下载修正 = type=http-request,pattern=^https?:\/\/testflight\.apple\.com\/v\d\/accounts\/.+?\/install$,requires-body=1,script-path=https://raw.githubusercontent.com/Servant9527/Surge/main/JS%20folder/TF_Download.js
+
+[MITM]
+hostname = %APPEND% testflight.apple.com
