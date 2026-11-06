@@ -6,4 +6,4 @@
 IP 送中检测 = script-name=ip-songzhong, title=IP 送中检测, content=请刷新面板, update-interval=600
 
 [Script]
-ip-songzhong = type=generic, timeout=15, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@main/JS%20folder/IP-SongZhong.panel.js
+ip-songzhong = type=generic, timeout=15, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@f2449797fc192a6c8570a0d429c5c878c6819746/JS%20folder/IP-SongZhong.panel.js
