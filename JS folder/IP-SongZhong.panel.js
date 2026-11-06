@@ -1,1 +1,77 @@
-Ly8gSVAg6YCB5Lit5qOA5rWL6Z2i5p2/IGZvciBTdXJnZQovLyDmo4DmtYvmlrnms5XvvJror7fmsYIgZ29vZ2xlLmNvbSDpppbpobXlubbnpoHmraLot5/pmo/ot7PovawKLy8gICBIVFRQIDIwMCA9IOiwt+atjOiupOe+juWbve+8iOato+W4uO+8ie+8jEhUVFAgMzAyID0g6LezIGdvb2dsZS5jb20uaGvvvIjpgIHkuK3vvIkKLy8g5ZCM5pe25pi+56S65Ye65Y+jIElQIOS4juWumuS9je+8iGlwLWFwaS5jb23vvIkKLy8g5Y+C6ICD77yaU2VydmFudDk1MjcvU3VyZ2UgSlMgZm9sZGVyL2lwLWFwaS5qcwoKY29uc3QgR09PR0xFX1VSTCA9ICJodHRwczovL3d3dy5nb29nbGUuY29tLyI7CmNvbnN0IElQX0FQSV9VUkwgPSAiaHR0cDovL2lwLWFwaS5jb20vanNvbi8/ZmllbGRzPTg0NTAwMTUmbGFuZz16aC1DTiI7CgpsZXQgZ29vZ2xlU3RhdHVzID0gIuajgOa1i+S4rSI7CmxldCBnb29nbGVJY29uID0gIuKdkyI7CmxldCBpcEluZm8gPSBudWxsOwoKZnVuY3Rpb24gZ2V0RmxhZ0Vtb2ppKGNvdW50cnlDb2RlKSB7CiAgaWYgKCFjb3VudHJ5Q29kZSkgcmV0dXJuICIiOwogIGlmIChjb3VudHJ5Q29kZS50b1VwcGVyQ2FzZSgpID09ICJUVyIpIGNvdW50cnlDb2RlID0gIkNOIjsKICBjb25zdCBjb2RlUG9pbnRzID0gY291bnRyeUNvZGUKICAgIC50b1VwcGVyQ2FzZSgpCiAgICAuc3BsaXQoIiIpCiAgICAubWFwKChjaGFyKSA9PiAxMjczOTcgKyBjaGFyLmNoYXJDb2RlQXQoKSk7CiAgcmV0dXJuIFN0cmluZy5mcm9tQ29kZVBvaW50KC4uLmNvZGVQb2ludHMpOwp9CgpmdW5jdGlvbiByZW5kZXIoKSB7CiAgY29uc3QgaXAgPSBpcEluZm8gPyBpcEluZm8ucXVlcnkgOiAi6I635Y+W5aSx6LSlIjsKICBjb25zdCBpc3AgPSBpcEluZm8gPyBpcEluZm8uaXNwIDogIuiOt+WPluWksei0pSI7CiAgY29uc3QgY291bnRyeSA9IGlwSW5mbyA/IGlwSW5mby5jb3VudHJ5IDogIuiOt+WPluWksei0pSI7CiAgY29uc3QgY2l0eSA9IGlwSW5mbyA/IGlwSW5mby5jaXR5IDogIuiOt+WPluWksei0pSI7CiAgY29uc3QgZW1vamkgPSBpcEluZm8gPyBnZXRGbGFnRW1vamkoaXBJbmZvLmNvdW50cnlDb2RlKSA6ICIiOwogIGNvbnN0IGxvYyA9IGlwSW5mbyA/IGAke2Vtb2ppfSR7Y291bnRyeX0gJHtjaXR5fWAgOiAi6I635Y+W5aSx6LSlIjsKCiAgY29uc3QgYm9keSA9IHsKICAgIHRpdGxlOiAiSVAg6YCB5Lit5qOA5rWLIiwKICAgIGNvbnRlbnQ6CiAgICAgIGDwn4yQIOWHuuWPoyBJUO+8miR7aXB9XG5gICsKICAgICAgYPCflqXvuI8gSVNQ77yaJHtpc3B9XG5gICsKICAgICAgYPCfjI0g5a6a5L2N77yaJHtsb2N9XG5gICsKICAgICAgYCR7Z29vZ2xlSWNvbn0g6LC35q2M77yaJHtnb29nbGVTdGF0dXN9YCwKICAgIGljb246ICJnbG9iZSIsCiAgICAiaWNvbi1jb2xvciI6IGdvb2dsZVN0YXR1cy5pbmRleE9mKCLpgIHkuK0iKSAhPT0gLTEgPyAiI2ZmM2IzMCIgOiAiIzM0Yzc1OSIsCiAgfTsKICAkZG9uZShib2R5KTsKfQoKLy8gMS4g5YWI5p+l6LC35q2M54q25oCB77yI56aB6Lez6L2s77yM55u05o6l55yL54q25oCB56CB77yJCiRodHRwQ2xpZW50LmdldCgKICB7IHVybDogR09PR0xFX1VSTCwgImF1dG8tcmVkaXJlY3QiOiBmYWxzZSwgdGltZW91dDogMTAgfSwKICBmdW5jdGlvbiAoZXJyb3IsIHJlc3BvbnNlLCBkYXRhKSB7CiAgICBpZiAoIWVycm9yICYmIHJlc3BvbnNlKSB7CiAgICAgIGlmIChyZXNwb25zZS5zdGF0dXMgPT09IDIwMCkgewogICAgICAgIGdvb2dsZVN0YXR1cyA9ICLmraPluLjvvIjnvo7lm73vvIkiOwogICAgICAgIGdvb2dsZUljb24gPSAi4pyFIjsKICAgICAgfSBlbHNlIGlmIChyZXNwb25zZS5zdGF0dXMgPT09IDMwMikgewogICAgICAgIGdvb2dsZVN0YXR1cyA9ICLpgIHkuK3vvIjot7MgLmhr77yJIjsKICAgICAgICBnb29nbGVJY29uID0gIuKaoO+4jyI7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgZ29vZ2xlU3RhdHVzID0gYOW8guW4uO+8iEhUVFAgJHtyZXNwb25zZS5zdGF0dXN977yJYDsKICAgICAgICBnb29nbGVJY29uID0gIuKdkyI7CiAgICAgIH0KICAgIH0gZWxzZSB7CiAgICAgIGdvb2dsZVN0YXR1cyA9ICLmo4DmtYvlpLHotKUiOwogICAgICBnb29nbGVJY29uID0gIuKdjCI7CiAgICB9CgogICAgLy8gMi4g5YaN5p+lIElQIOWumuS9jQogICAgJGh0dHBDbGllbnQuZ2V0KElQX0FQSV9VUkwsIGZ1bmN0aW9uIChlcnIyLCByZXNwMiwgZGF0YTIpIHsKICAgICAgaWYgKCFlcnIyICYmIGRhdGEyKSB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgIGlwSW5mbyA9IEpTT04ucGFyc2UoZGF0YTIpOwogICAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICAgIGlwSW5mbyA9IG51bGw7CiAgICAgICAgfQogICAgICB9CiAgICAgIHJlbmRlcigpOwogICAgfSk7CiAgfQopOwo=
+// IP 送中检测面板 for Surge
+// 检测方法：请求 google.com 首页并禁止跟随跳转
+//   HTTP 200 = 谷歌认美国（正常），HTTP 302 = 跳 google.com.hk（送中）
+// 同时显示出口 IP 与定位（ip-api.com）
+// 参考：Servant9527/Surge JS folder/ip-api.js
+
+const GOOGLE_URL = "https://www.google.com/";
+const IP_API_URL = "http://ip-api.com/json/?fields=8450015&lang=zh-CN";
+
+let googleStatus = "检测中";
+let googleIcon = "❓";
+let ipInfo = null;
+
+function getFlagEmoji(countryCode) {
+  if (!countryCode) return "";
+  if (countryCode.toUpperCase() == "TW") countryCode = "CN";
+  const codePoints = countryCode
+    .toUpperCase()
+    .split("")
+    .map((char) => 127397 + char.charCodeAt());
+  return String.fromCodePoint(...codePoints);
+}
+
+function render() {
+  const ip = ipInfo ? ipInfo.query : "获取失败";
+  const isp = ipInfo ? ipInfo.isp : "获取失败";
+  const country = ipInfo ? ipInfo.country : "获取失败";
+  const city = ipInfo ? ipInfo.city : "获取失败";
+  const emoji = ipInfo ? getFlagEmoji(ipInfo.countryCode) : "";
+  const loc = ipInfo ? `${emoji}${country} ${city}` : "获取失败";
+
+  const body = {
+    title: "IP 送中检测",
+    content:
+      `🌐 出口 IP：${ip}\n` +
+      `🖥️ ISP：${isp}\n` +
+      `🌍 定位：${loc}\n` +
+      `${googleIcon} 谷歌：${googleStatus}`,
+    icon: "globe",
+    "icon-color": googleStatus.indexOf("送中") !== -1 ? "#ff3b30" : "#34c759",
+  };
+  $done(body);
+}
+
+// 1. 先查谷歌状态（禁跳转，直接看状态码）
+$httpClient.get(
+  { url: GOOGLE_URL, "auto-redirect": false, timeout: 10 },
+  function (error, response, data) {
+    if (!error && response) {
+      if (response.status === 200) {
+        googleStatus = "正常（美国）";
+        googleIcon = "✅";
+      } else if (response.status === 302) {
+        googleStatus = "送中（跳 .hk）";
+        googleIcon = "⚠️";
+      } else {
+        googleStatus = `异常（HTTP ${response.status}）`;
+        googleIcon = "❓";
+      }
+    } else {
+      googleStatus = "检测失败";
+      googleIcon = "❌";
+    }
+
+    // 2. 再查 IP 定位
+    $httpClient.get(IP_API_URL, function (err2, resp2, data2) {
+      if (!err2 && data2) {
+        try {
+          ipInfo = JSON.parse(data2);
+        } catch (e) {
+          ipInfo = null;
+        }
+      }
+      render();
+    });
+  }
+);
