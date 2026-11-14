@@ -25,6 +25,7 @@ function fetchUrl(url, cb) {
 
 const FLAGS = {
   "RN-LA01": "🇺🇸", "RN-LA02": "🇺🇸", "GCP-OR": "🇺🇸",
+  "SG01": "🇸🇬", "SG02": "🇸🇬", "SG03": "🇸🇬",
 };
 function flagFor(name) {
   if (name.startsWith("CN")) return "🇨🇳";
