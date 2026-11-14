@@ -1,7 +1,7 @@
 #!name=IP 送中检测
 #!desc=检测出口 IP 是否被谷歌判定为中国（送中）：请求 google.com 首页并禁止跟随跳转，HTTP 200 为正常（美国），302 为送中（跳 .hk）；同时显示出口 IP 与定位。模块参数 policy 可指定策略组，面板显示该组当前选中节点的出口情况。
 #!category=面板
-#!arguments=policy:
+#!arguments=policy:代理
 #!arguments-desc=要检测的策略组名，例如 国外代理；留空则走默认路由。
 
 [Panel]
