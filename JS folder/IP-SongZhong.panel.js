@@ -1,6 +1,6 @@
 // IP 送中检测面板 for Surge
 // 检测方法：请求 google.com 首页并禁止跟随跳转
-//   HTTP 200 = 谷歌认美国（正常），HTTP 302 = 跳 google.com.hk（送中）
+//   HTTP 200 = 谷歌不跳转（未送中），HTTP 302 = 跳 google.com.hk（送中）
 // 同时用 ip-api.com 显示出口 IP 与定位
 // 模块参数 policy（sgmodule 的 #!arguments，默认 国外代理）：
 //   脚本的两个请求都走该策略组当前选中的节点；
@@ -83,7 +83,7 @@ $httpClient.get(
   function (error, response, data) {
     if (!error && response) {
       if (response.status === 200) {
-        googleStatus = "正常（美国）";
+        googleStatus = "正常（未送中）";
         googleIcon = "✅";
       } else if (response.status === 302) {
         googleStatus = "送中（跳 .hk）";
