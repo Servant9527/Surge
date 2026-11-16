@@ -1,5 +1,6 @@
-// VPS流量监控面板 v3
+// VPS流量监控面板 v4
 // 固定显示上下行，0也显示，保证对齐
+// v4 新增：国内免流合计（15 台 CN 机）与国外免流合计（SG01/02/03）
 
 const API_URL = "http://23.238.91.5:8900/?token=vps-traffic-2026";
 const API_BACKUP = "http://39.98.71.108:8899/?token=vps-traffic-2026";
@@ -37,6 +38,17 @@ function render(data) {
     const j = JSON.parse(data);
     let lines = [];
     lines.push("更新: " + j.updated);
+    // 国内外免流合计：国内 = 15 台 CN 机，国外 = SG01/02/03（LA 很少用来免流且另有服务，不计入）
+    let cn = { total: 0, rx: 0, tx: 0, off: 0 };
+    let sg = { total: 0, rx: 0, tx: 0, off: 0 };
+    for (const m of j.machines) {
+      const g = m.name.startsWith("CN") ? cn : (m.name.startsWith("SG") ? sg : null);
+      if (!g) continue;
+      if (m.status !== "ok") { g.off++; continue; }
+      g.rx += m.rx_gb; g.tx += m.tx_gb; g.total += m.rx_gb + m.tx_gb;
+    }
+    lines.push("🇨🇳 国内免流:" + padLeft(cn.total.toFixed(1) + "G", 8) + "↓" + padLeft(cn.rx.toFixed(1) + "G", 7) + " ↑" + padLeft(cn.tx.toFixed(1) + "G", 7) + (cn.off ? " (" + cn.off + "台离线)" : ""));
+    lines.push("🇸🇬 国外免流:" + padLeft(sg.total.toFixed(1) + "G", 8) + "↓" + padLeft(sg.rx.toFixed(1) + "G", 7) + " ↑" + padLeft(sg.tx.toFixed(1) + "G", 7) + (sg.off ? " (" + sg.off + "台离线)" : ""));
     lines.push("");
     for (const m of j.machines) {
       if (m.status !== "ok") {
