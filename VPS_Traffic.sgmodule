@@ -3,7 +3,7 @@
 #!category=面板
 
 [Script]
-VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@f3c63b57f97c94c955ddbb8daa734f2c37d0b64d/vps-traffic.js
+VPS流量监控 = type=generic, timeout=30, script-path=https://cdn.jsdelivr.net/gh/Servant9527/Surge@673c96f4d4d670bb247d4154ec0e27e6d50eece3/vps-traffic.js
 
 [Panel]
 VPS流量监控 = script-name=VPS流量监控, update-interval=120
